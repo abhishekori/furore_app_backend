@@ -1,0 +1,18 @@
+[14-Mar-2015 19:25:07 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/dsceauto/public_html/furore15/champaign/db.php:12
+Stack trace:
+#0 /home/dsceauto/public_html/furore15/champaign/db.php(12): PDO->__construct('mysql:host=loca...', 'root', 'mysqlp@ss')
+#1 /home/dsceauto/public_html/furore15/champaign/db.php(31): DB->db_connect()
+#2 {main}
+  thrown in /home/dsceauto/public_html/furore15/champaign/db.php on line 12
+[14-Mar-2015 19:26:15 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'dsceauto'@'localhost' to database 'app'' in /home/dsceauto/public_html/furore15/champaign/db.php:12
+Stack trace:
+#0 /home/dsceauto/public_html/furore15/champaign/db.php(12): PDO->__construct('mysql:host=loca...', 'dsceauto', '2dsce@utomobile...')
+#1 /home/dsceauto/public_html/furore15/champaign/db.php(31): DB->db_connect()
+#2 {main}
+  thrown in /home/dsceauto/public_html/furore15/champaign/db.php on line 12
+[14-Mar-2015 19:32:18 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'dsceauto'@'localhost' to database 'app'' in /home/dsceauto/public_html/furore15/champaign/db.php:12
+Stack trace:
+#0 /home/dsceauto/public_html/furore15/champaign/db.php(12): PDO->__construct('mysql:host=loca...', 'dsceauto', '2dsce@utomobile...')
+#1 /home/dsceauto/public_html/furore15/champaign/db.php(30): DB->__construct()
+#2 {main}
+  thrown in /home/dsceauto/public_html/furore15/champaign/db.php on line 12
